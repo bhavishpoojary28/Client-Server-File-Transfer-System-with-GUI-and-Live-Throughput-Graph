@@ -1,22 +1,114 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Client-Server File Transfer System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f6f8;
+            color: #333;
+        }
+        header {
+            background: #0f172a;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        section {
+            max-width: 900px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+        h2 {
+            color: #0f172a;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 20px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+        footer {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
 </head>
 <body>
+
+<header>
     <h1>Client-Server File Transfer System</h1>
     <p>With GUI and Live Throughput Graph</p>
+</header>
 
-    <h2>About the Project</h2>
-    <p>This project allows you to transfer files between a client and server using TCP sockets with a GUI and real-time speed monitor.</p>
+<section>
+    <div class="card">
+        <h2>📌 About the Project</h2>
+        <p>
+            This project implements a TCP-based client-server file transfer system
+            using Python. It features a graphical user interface (GUI) for file selection
+            and displays real-time file transfer speed using a live throughput graph.
+        </p>
+    </div>
 
-    <h2>Screenshots</h2>
-    <!-- Add images here if you have them -->
-    <img src="screenshot1.png" alt="GUI screenshot">
+    <div class="card">
+        <h2>✨ Features</h2>
+        <ul>
+            <li>TCP socket-based file transfer</li>
+            <li>GUI built using Tkinter</li>
+            <li>Real-time speed monitoring</li>
+            <li>Live throughput graph using Matplotlib</li>
+            <li>Client–server architecture</li>
+        </ul>
+    </div>
 
-    <h2>Repository</h2>
-    <a href="https://github.com/bhavishpoojary28/Client-Server-File-Transfer-System-with-GUI-and-Live-Throughput-Graph">View on GitHub</a>
+    <div class="card">
+        <h2>🛠️ Technologies Used</h2>
+        <ul>
+            <li>Python</li>
+            <li>TCP/IP Sockets</li>
+            <li>Tkinter</li>
+            <li>Matplotlib</li>
+            <li>GitHub Pages</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>▶️ How to Run</h2>
+        <ol>
+            <li>Start the server using <code>server.py</code></li>
+            <li>Run the client GUI using <code>client_gui.py</code></li>
+            <li>Select a file and start transfer</li>
+        </ol>
+    </div>
+
+    <div class="card">
+        <h2>📂 Source Code</h2>
+        <a class="btn" href="https://github.com/bhavishpoojary28/Client-Server-File-Transfer-System-with-GUI-and-Live-Throughput-Graph" target="_blank">
+            View on GitHub
+        </a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Bhavish Poojary | DCN Major Project</p>
+</footer>
 
 </body>
 </html>
